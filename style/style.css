@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    font-family: Tahoma;
+}
+
+#content {
+    width: 1024px;
+    margin: 10px auto;
+}
+
+#error {
+    position: fixed;
+    width: 200px;
+    padding: 10px;
+    top: 15px;
+    right: 15px;
+    border: 1px solid #c00010;
+    color: #c00010;
+
+    background: #ffeded; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffeded 0%, #fff7f7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffeded), color-stop(100%,#fff7f7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffeded 0%,#fff7f7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffeded 0%,#fff7f7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffeded 0%,#fff7f7 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffeded 0%,#fff7f7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffeded', endColorstr='#fff7f7',GradientType=0 ); /* IE6-9 */
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    display: none;
+}
+
+#loader {
+    background: url("../images/loader.gif");
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: none;
+
+}
